@@ -1,4 +1,4 @@
-FILEPATH = "C:\Learning\LearnPython\Project1\day1\/todolist\webapp\/todo.txt"
+FILEPATH = "todo_gui.txt"
 
 
 def get_todos(filename=FILEPATH):
@@ -14,3 +14,4 @@ def write_todo(todos_local, filename=FILEPATH):
 
 if __name__ == "__main__":
     print("Hello from function")
+    print(get_todos())
